@@ -11,9 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
-[assembly: AssemblyInformationalVersion("0.1.0+9.Branch.master.Sha.cbaa519f73b182d78a8e410e5ada7aa1eeb3636f")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersion("1.0.0-rc.10+Branch.master.Sha.c51a3b6cb5d6b2ad3d7acedbbe551fc7b1ac4784")]
 
 namespace ConsoleApp
 {
@@ -21,32 +21,32 @@ namespace ConsoleApp
     [global::System.Runtime.CompilerServices.CompilerGenerated]
     static class GitVersionInformation
     {
-        public static string Major = "0";
-        public static string Minor = "1";
+        public static string Major = "1";
+        public static string Minor = "0";
         public static string Patch = "0";
-        public static string PreReleaseTag = "";
-        public static string PreReleaseTagWithDash = "";
-        public static string PreReleaseLabel = "";
-        public static string PreReleaseNumber = "";
-        public static string BuildMetaData = "9";
-        public static string BuildMetaDataPadded = "0009";
-        public static string FullBuildMetaData = "9.Branch.master.Sha.cbaa519f73b182d78a8e410e5ada7aa1eeb3636f";
-        public static string MajorMinorPatch = "0.1.0";
-        public static string SemVer = "0.1.0";
-        public static string LegacySemVer = "0.1.0";
-        public static string LegacySemVerPadded = "0.1.0";
-        public static string AssemblySemVer = "0.1.0.0";
-        public static string AssemblySemFileVer = "0.1.0.0";
-        public static string FullSemVer = "0.1.0+9";
-        public static string InformationalVersion = "0.1.0+9.Branch.master.Sha.cbaa519f73b182d78a8e410e5ada7aa1eeb3636f";
+        public static string PreReleaseTag = "rc.10";
+        public static string PreReleaseTagWithDash = "-rc.10";
+        public static string PreReleaseLabel = "rc";
+        public static string PreReleaseNumber = "10";
+        public static string BuildMetaData = "";
+        public static string BuildMetaDataPadded = "";
+        public static string FullBuildMetaData = "Branch.master.Sha.c51a3b6cb5d6b2ad3d7acedbbe551fc7b1ac4784";
+        public static string MajorMinorPatch = "1.0.0";
+        public static string SemVer = "1.0.0-rc.10";
+        public static string LegacySemVer = "1.0.0-rc10";
+        public static string LegacySemVerPadded = "1.0.0-rc0010";
+        public static string AssemblySemVer = "1.0.0.0";
+        public static string AssemblySemFileVer = "1.0.0.0";
+        public static string FullSemVer = "1.0.0-rc.10";
+        public static string InformationalVersion = "1.0.0-rc.10+Branch.master.Sha.c51a3b6cb5d6b2ad3d7acedbbe551fc7b1ac4784";
         public static string BranchName = "master";
-        public static string Sha = "cbaa519f73b182d78a8e410e5ada7aa1eeb3636f";
-        public static string NuGetVersionV2 = "0.1.0";
-        public static string NuGetVersion = "0.1.0";
-        public static string NuGetPreReleaseTagV2 = "";
-        public static string NuGetPreReleaseTag = "";
-        public static string CommitsSinceVersionSource = "9";
-        public static string CommitsSinceVersionSourcePadded = "0009";
+        public static string Sha = "c51a3b6cb5d6b2ad3d7acedbbe551fc7b1ac4784";
+        public static string NuGetVersionV2 = "1.0.0-rc0010";
+        public static string NuGetVersion = "1.0.0-rc0010";
+        public static string NuGetPreReleaseTagV2 = "rc0010";
+        public static string NuGetPreReleaseTag = "rc0010";
+        public static string CommitsSinceVersionSource = "10";
+        public static string CommitsSinceVersionSourcePadded = "0010";
         public static string CommitDate = "2018-05-27";
     }
 
