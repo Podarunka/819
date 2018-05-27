@@ -16,6 +16,7 @@ namespace ConsoleApp
             var fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
             var version = fileVersionInfo.ProductVersion;
             var a = 1;
+            var b = a;
             Console.WriteLine(version);
             Console.ReadKey();
         }
